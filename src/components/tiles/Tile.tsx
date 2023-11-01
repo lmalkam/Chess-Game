@@ -12,7 +12,6 @@ export default function Tile({image,number}: Props)
     {
         return (<div className='tile black-tile' >
             <div style={{backgroundImage: 'url($(image))'}}></div>
-            <img src={image}></img>
             </div>
         );
     }
